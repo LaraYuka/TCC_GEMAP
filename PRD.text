@@ -1,0 +1,37 @@
+O que é o sistema e seu motivo:
+
+A gestão de materiais pedagógicos em instituições de Educação Infantil representa um desafio constante, uma vez que a ausência de controle sistematizado resulta em perdas, desperdícios e retrabalho, impactando diretamente a rotina pedagógica. Este Trabalho de Conclusão de Curso apresenta a proposta do GEMAP – Gerenciador de Materiais Pedagógicos, sistema informatizado desenvolvido a partir da observação realizada no CMEI Sonho Meu, em Mariópolis-PR, com o objetivo de organizar, registrar e controlar o uso de brinquedos, livros e jogos educativos. O estudo envolveu a análise das necessidades da instituição, a definição de requisitos funcionais e não funcionais, a elaboração de diagramas e protótipos, bem como a seleção de linguagens e ferramentas adequadas ao desenvolvimento. O GEMAP foi projetado para oferecer funcionalidades como cadastro de materiais e usuários, agendamento de empréstimos e devoluções, relatórios gerenciais e exportação de dados em formato CSV, além de adotar tecnologias web atuais, incluindo o conceito de Progressive Web App (PWA), que amplia a acessibilidade e a usabilidade do sistema. Os resultados apontam que a ferramenta tem potencial para aprimorar a prática pedagógica e a eficiência administrativa, promovendo maior transparência, sustentabilidade e apoio ao planejamento educacional. Ressalta-se, entretanto, que o sistema ainda se encontra em fase de desenvolvimento e poderá passar por ajustes e melhorias, conforme novas demandas forem identificadas, mantendo-se como uma proposta flexível e em constante evolução para atender às necessidades da instituição.
+
+1. Visão do Produto
+Uma plataforma para agendar e solicitar materiais educacionais que conecta um administrador e os professores, oferendo mais organização e controle em relação aos materiais pedagógicos.
+
+2. Problema e Hipóteses
+•	Para Professores: Encontrar materiais para atividades na hora que deseja nem sempre é possível. Há incerteza se realmente está no local ou se ainda tem, gerando uma desorganização grande e alterações em seu planejamento de aula.
+•	Para Administrador: O controle de materiais não é realizado, fazendo ter gastos em materiais desnecessários e não realizando a compra que realmente é necessitada. Não possui relatórios para ter um controle correto e eficiente. Nem sempre é possível realizar a solicitação e o professor não é avisado.
+
+3. Público-Alvo (Foco do Lançamento)
+•	Professores: Professores da creche.
+o	Necessidades: Organização para agendamento de materiais e solicitação de materiais para o planejamento.
+•	Administrador: Secretaria da educação que realiza pedidos para compra de materiais.
+
+4. Definição de Sucesso do MVP (Minimum Viable Product)
+O sucesso do nosso MVP será alcançado quando o fluxo principal for validado na prática:
+•	O professor consegue buscar, encontrar opções relevantes de materiais, agendar e solicitar.
+•	O administrador consegue analisar o pedido e aprovar a solicitação, e pode gerar relatórios sobre os materiais.
+
+5. Escopo do MVP: O Essencial para a Primeira Versão
+Construiremos apenas o necessário para validar o fluxo de reserva ponta a ponta.
+Funcionalidades Essenciais:
+1.	Jornada do Administrador:
+o	Cadastro de Perfil Simplificado (Nome, E-mail, senha).
+o	Cadastro do Professor: Campos para Nome, E-mail, Senha.
+o	Cadastro de Material: Campos para nome, descrição, fotos, quantidade, categoria, estado de conservação, local guardado e idade recomendada.
+o	Calendário de Disponibilidade: Ferramenta visual para o administrador marcar datas como livres ou ocupadas.
+o	Painel para visualizar e Aprovar/Recusar solicitações.
+2.	Jornada do Viajante:
+o	Busca e Filtro: Busca por quantidade, categoria e idade recomendada.
+o	Página do material: Visualização de todas as informações, fotos e calendário.
+o	Solicitação de Reserva: Selecionar datas.
+3.	Funcionalidades da Plataforma:
+o	Comunicação Mínima: Um sistema de mensagens por e-mail avisando sobre a solicitação.
+
