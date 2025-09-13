@@ -8,5 +8,6 @@ $mysqli = new mysqli($hostname, $usuario, $senha, $bd);
 
 if ($mysqli->connect_errno) {
     echo "falha ao conectar: (" . $mysqli->connect_error . ")" . $mysqli->connect_errno;
-} else
+} else {
     echo "Conectado ao Banco de Dados";
+}
